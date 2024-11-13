@@ -11,7 +11,7 @@ const Jobs = () => (
     <p>
       <span className="font-bold">Research Engineer</span>
       <br />
-      Arlington, TX <br />
+      Fort Worth, TX <br />
       United States <br />
     </p>
 
