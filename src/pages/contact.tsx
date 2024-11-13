@@ -1,7 +1,7 @@
 import { Meta } from '@/layout/Meta';
 import { Main } from '@/templates/Main';
 import { AppConfig } from '@/utils/AppConfig';
-import Map from "../components/Map";
+// import Map from "../components/Map";
 
 const Contact = () => (
   <Main
