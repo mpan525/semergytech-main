@@ -53,7 +53,8 @@
     "prettier": "^2.5.1",
     "rimraf": "^3.0.2",
     "tailwindcss": "^3.0.23",
-    "typescript": "^4.5.5"
+    "typescript": "^4.5.5",
+    "swiper": "^10.3.1"
   },
   "license": "ISC"
 }

@@ -21,6 +21,14 @@ const Products = () => (
         />
       </a>
     </p>
+    <p>
+      940 nm, 1040nm High-Power Photonic Crystal Surface-Emitting Lasers
+      <FontAwesomeIcon
+        icon={faUpRightFromSquare}
+        height="0.75em"
+        style={{ display: 'inline' }}
+      />
+    </p>
   </Main>
 );
 
