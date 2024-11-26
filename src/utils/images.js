@@ -4,7 +4,7 @@
 import first from "@/public/assets/images/technology/Graphene Si PC.jpg";
 import PCSEL2024 from "@/public/assets/images/technology/PCSEL2024.png";
 import second from "@/public/assets/images/technology/MR-VCSEL-ZM.jpg";
-import third from "@/public/assets/images/technology/PC SLM Graphic1.png";
+import PC_SLM from "@/public/assets/images/technology/PC SLM Graphic1.png";
 import fourth from "@/public/assets/images/technology/PCSEL.jpg";
 import fifth from "@/public/assets/images/technology/Zhoubook cover.jpg";
 
@@ -23,6 +23,17 @@ export const images = [
   },
 
   {
+    src: PC_SLM,
+    alt: "PC SLM Graphic",
+    title: "High Speed Photonic Crystal Slab Spatial Light Modulators (PC-SLM)",
+    citations: [
+      'Zhou, Weidong, and Mingsen Pan. "High speed spatial light modulator." U.S. Patent Application 17/815,339, filed February 23, 2023.;',
+      'Pan, Mingsen, Zhonghe Liu, Akhil Raj Kumar Kalapala, Yudong Chen, Yuze Sun, and Weidong Zhou. "Complete 2π Phase Control by Photonic Crystal Slabs." Optics Express 29, no. 25 (2021): 40795-40803.',
+      "Y. Shuai, D. Zhao, C. Stambaugh, N. Zimmerman, J. Lawall, and W. Zhou, “Coupled Bi-layer Photonic Crystal Slab Electro-optic Spatial Light Modulators”,  IEEE Photon. J. 9, 7101411 (2017).",
+    ],
+  },
+
+  {
     src: second,
     alt: "MR-VCSEL-ZM",
     title: "DBR-free Photonic Crystal Membrane Reflector VCSELs",
@@ -31,30 +42,23 @@ export const images = [
   },
 
   {
-    src: third,
-    alt: "PC SLM Graphic",
-    title:
-      "High Speed Photonic Crystal Slab Spatial Light Modulators (PCS SLM)",
-    citations: [
-      'Zhou, Weidong, and Mingsen Pan. "High speed spatial light modulator." U.S. Patent Application 17/815,339, filed February 23, 2023.;',
-      "Y. Shuai, D. Zhao, C. Stambaugh, N. Zimmerman, J. Lawall, and W. Zhou, “Coupled Bi-layer Photonic Crystal Slab Electro-optic Spatial Light Modulators”,  IEEE Photon. J. 9, 7101411 (2017).",
-    ],
-  },
-
-  {
     src: fourth,
     alt: "PCSEL",
     title: "Hybrid Photonic Crystal Surface Emitting Lasers (hPCSEL)",
-    citations:
+    citations: [
       "D. Zhao, S. Liu, H. Yang, Z. Ma, C. Reuterskiöld-Hedlund, M. Hammar, and W. Zhou, “Printed Large-Area Single-Mode Photonic Crystal Bandedge Surface-Emitting Lasers on Silicon, Scientific Reports 6, 18860 (2016).",
+      'Zhou, Weidong, Shih-Chia Liu, Xiaochen Ge, Deyin Zhao, Hongjun Yang, Carl Reuterskiöld-Hedlund, and Mattias Hammar. "On-chip photonic crystal surface-emitting membrane lasers." IEEE Journal of Selected Topics in Quantum Electronics 25, no. 3 (2019): 1-11.',
+    ],
   },
 
   {
     src: first,
     alt: "Graphene Si PC",
     title: "Material Absorption Control with Photonic Crystal Cavities",
-    citations:
+    citations: [
       "Y. Liu, A. Chadha, D. Zhao, J. R.Piper, Y. Jia, Y. Shuai, L. Menon, H. Yang, Z. Ma, S. Fan, F. Xia, and W. Zhou, “Approaching total absorption at near infrared in a large area monolayer graphene by critical coupling”, Appl. Phys. Lett. 105, 181105 (2014).",
+      'Pan, Mingsen, Aaron Liu, Zhonghe Liu, and Weidong Zhou. "High-speed tunable optical absorber based on a coupled photonic crystal slab and monolayer graphene structure." Optics Express 30, no. 26 (2022): 47612-47624.',
+    ],
   },
 
   {
